@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE SUIT Online Store</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="./detail.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header>
+        <div class="header__main">
+            <nav class="header__left__nav navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../homepage/index.html">Trang chủ</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Sản phẩm
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/pages/detail/detail.html">DANH SÁCH SẢN PHẨM</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="/pages/detail/detail.html">SẢN PHẨM MỚI</a></li>
+                                </ul>
+                            </li>
+</ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__right">
+                <ul>
+                    <li><span onclick="clickSearch()" class="material-symbols-outlined">
+                            search
+                        </span></li>
+                    <li><a href="../login/login.html" class="material-symbols-outlined">
+                            person
+                        </a></li>
+                    <li><span class="material-symbols-outlined">
+                            shopping_bag</span></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class ="logo">
+        <div>
+            <img src="../homepage/logo/Black Minimalist free fashion Men Logo.jpg" class="rounded mx-auto d-block"
+                alt="SUIT SQUERA Oline Store">
+        </div>
+    </main>
+        <main>
+        <!-- <div class="container overflow-hidden text-center"> -->
+            <!-- <div class="row gy-5">
+                <div class="col-6">
+                    <div class="p-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/Images/suit/i1/041_3420030-MA_l.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Model 1</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                            <p>1.000.000đ</p>
+                                        <a href="../pay/payment.html" class="btn btn-primary">Thanh toán</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/Images/suit/i2/044_SJFU2306-MA_l.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Model 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk of the card's content.</p>
+                                    <p>2.000.000đ</p>
+                                <a href="../pay/payment.html" class="btn btn-primary">Thanh toán</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/Images/suit/i3/044_SJFU2307-ME_l.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Model 3</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                            <p>1.000.000đ</p>
+                                        <a href="../pay/payment.html" class="btn btn-primary">Thanh toán</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/Images/suit/i4/img_wear_02_01.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Model 4</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                            <p>2.000.000đ</p>
+                                        <a href="../pay/payment.html" class="btn btn-primary">Thanh toán</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/Images/suit/i5/img_wear_03_01.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Model 5</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                            <p>1.000.000đ</p>
+                                        <a href="../pay/payment.html" class="btn btn-primary">Thanh toán</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/Images/suit/i6/img_wear_04_01.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Model 6</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                            <p>2.000.000đ</p>
+                                        <a href="../pay/payment.html" class="btn btn-primary">Thanh toán</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/Images/suit/i7/044_SJFU2307-GE_l.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Model 7</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make
+                                    up the bulk of the card's content.</p>
+                                    <p>1.000.000đ</p>
+                                <a href="../pay/payment.html" class="btn btn-primary">Thanh toán</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/Images/suit/i8/086_NT22AJ07-GA_l.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Model 8</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                            <p>2.000.000đ</p>
+                                        <a href="../pay/payment.html" class="btn btn-primary">Thanh toán</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/Images/suit/i9/041_3420530-YA_l.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Model 9</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                            <p>1.000.000đ</p>
+                                        <a href="../pay/payment.html" class="btn btn-primary">Thanh toán</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="p-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/Images/suit/i10/044_3442510-GA_l.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Model 10</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                            <p>2.000.000đ</p>
+                                        <a href="../pay/payment.html" class="btn btn-primary">Thanh toán</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        <!-- </div> -->
+        <div class="container overflow-hidden text-center">
+            <div class="row gy-5" id="container-list">
+            
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div>
+                <span><i>Địa chỉ: Số 1A, Ngô Thì Nhậm, Hai Bà Trưng, TP Hồ Chí Minh</i></span>
+            </div>
+            <div>
+                <a href="">090 000 090</a>
+            </div>
+            <div>
+                <a href="#">info@thesuitgroup.vn</a>
+            </div>
+            <div>
+                Copyrights © 2023 by <a href="./homepage.html">THE SUIT Oline Store</a>.
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <script src="./detail.js"></script>
+</body>
+
+</html>

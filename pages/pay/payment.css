@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.product {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px auto;
+    width: 300px;
+}
+
+form {
+    margin: 20px auto;
+    width: 300px;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

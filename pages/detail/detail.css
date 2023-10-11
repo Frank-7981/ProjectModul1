@@ -1,0 +1,13 @@
+.footer {
+    margin:auto;
+    padding: 20px;
+    background-color: gray;
+}
+.logo{
+    background-color: white;
+    padding-right: 290px;
+}
+main{
+    background-color: antiquewhite;
+    padding-left: 270px;
+}

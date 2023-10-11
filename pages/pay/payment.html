@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Thanh Toán</title>
+    <link rel="stylesheet" href="./payment.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <div class="header__main">
+            <nav class="header__left__nav navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../homepage/index.html">Trang chủ</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="../detail/detail.html" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Sản phẩm
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="/pages/detail/detail.html">DANH SÁCH SẢN PHẨM</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="/pages/detail/detail.html">SẢN PHẨM MỚI</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__right">
+                <ul>
+                    <li><span onclick="clickSearch()" class="material-symbols-outlined">
+                            search
+                        </span></li>
+                    <li><a href="../login/login.html" class="material-symbols-outlined">
+                            person
+                        </a></li>
+                    <li><span class="material-symbols-outlined">
+                            shopping_bag</span></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+    <h1>Thanh Toán</h1>
+    <div class="product" id="product-info">
+
+    </div>
+    <form id="payment-form">
+        <label for="card-number">Số thẻ tín dụng:</label>
+        <input type="text" id="card-number" required>
+        <label for="expiration-date">Ngày hết hạn:</label>
+        <input type="text" id="expiration-date" required>
+        <button type="submit">Thanh Toán</button>
+    </form>
+</main>
+<footer>
+    <div class="footer">
+        <div>
+            <span><i>Địa chỉ: Số 1A, Ngô Thì Nhậm, Hai Bà Trưng, TP Hồ Chí Minh</i></span>
+        </div>
+        <div>
+            <a href="">090 000 090</a>
+        </div>
+        <div>
+            <a href="#">info@thesuitgroup.vn</a>
+        </div>
+        <div>
+            Copyrights © 2023 by <a href="./homepage.html">THE SUIT Oline Store</a>.
+        </div>
+    </div>
+</footer>
+
+    <script src="./payment.js"></script>
+</body>
+</html>
